@@ -53,8 +53,6 @@ public class FormationTest : MonoBehaviour
                     offsetX += offset;
                 }
             }
-            //position.x -= 17.1850166f;   //for some reason this work?
-            //position.z += offsetZ - 2.78093147f - 2;
 
             position.z += offsetZ;
             soldier.transform.localPosition = position;
